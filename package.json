@@ -1,0 +1,32 @@
+{
+  "name": "system-iced-coffee",
+  "version": "0.1.2",
+  "description": "SystemJS plugin for IcedCoffeeScript",
+  "main": "iced-coffee.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobedom/system-iced-coffee.git"
+  },
+  "keywords": [
+    "systemjs",
+    "loader",
+    "plugin",
+    "iced-coffee-script"
+  ],
+  "author": "jobedom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jobedom/system-iced-coffee/issues"
+  },
+  "homepage": "https://github.com/jobedom/system-iced-coffee",
+  "jspm": {
+    "dependencies": {
+      "iced-coffee-script": "npm:iced-coffee-script@^108.0.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  }
+}
